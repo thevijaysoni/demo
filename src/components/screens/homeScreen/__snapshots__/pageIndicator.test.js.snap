@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageIndicator should render PageIndicator screen correctly 1`] = `
+<View
+  style={
+    Object {
+      "marginHorizontal": 9,
+      "marginTop": 18,
+    }
+  }
+>
+  <RCTScrollView
+    data={
+      Array [
+        0,
+        1,
+        2,
+        3,
+        4,
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    testID="page-indicator"
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#9e9e9e",
+                  "borderRadius": 135,
+                  "flex": 1,
+                  "height": 6.571428571428571,
+                  "marginHorizontal": 9,
+                },
+                Object {
+                  "backgroundColor": "#ffffff",
+                },
+              ]
+            }
+          />
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#9e9e9e",
+                  "borderRadius": 135,
+                  "flex": 1,
+                  "height": 6.571428571428571,
+                  "marginHorizontal": 9,
+                },
+                false,
+              ]
+            }
+          />
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#9e9e9e",
+                  "borderRadius": 135,
+                  "flex": 1,
+                  "height": 6.571428571428571,
+                  "marginHorizontal": 9,
+                },
+                false,
+              ]
+            }
+          />
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#9e9e9e",
+                  "borderRadius": 135,
+                  "flex": 1,
+                  "height": 6.571428571428571,
+                  "marginHorizontal": 9,
+                },
+                false,
+              ]
+            }
+          />
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#9e9e9e",
+                  "borderRadius": 135,
+                  "flex": 1,
+                  "height": 6.571428571428571,
+                  "marginHorizontal": 9,
+                },
+                false,
+              ]
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

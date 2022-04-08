@@ -1,0 +1,574 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeScreen should render HomeScreen screen correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#225E70",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginHorizontal": 9,
+        "marginTop": 18,
+      }
+    }
+  >
+    <RCTScrollView
+      data={
+        Array [
+          0,
+          1,
+          2,
+          3,
+          4,
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      testID="page-indicator"
+      viewabilityConfigCallbackPairs={Array []}
+    >
+      <View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "#9e9e9e",
+                    "borderRadius": 135,
+                    "flex": 1,
+                    "height": 6.571428571428571,
+                    "marginHorizontal": 9,
+                  },
+                  Object {
+                    "backgroundColor": "#ffffff",
+                  },
+                ]
+              }
+            />
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "#9e9e9e",
+                    "borderRadius": 135,
+                    "flex": 1,
+                    "height": 6.571428571428571,
+                    "marginHorizontal": 9,
+                  },
+                  false,
+                ]
+              }
+            />
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "#9e9e9e",
+                    "borderRadius": 135,
+                    "flex": 1,
+                    "height": 6.571428571428571,
+                    "marginHorizontal": 9,
+                  },
+                  false,
+                ]
+              }
+            />
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "#9e9e9e",
+                    "borderRadius": 135,
+                    "flex": 1,
+                    "height": 6.571428571428571,
+                    "marginHorizontal": 9,
+                  },
+                  false,
+                ]
+              }
+            />
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "#9e9e9e",
+                    "borderRadius": 135,
+                    "flex": 1,
+                    "height": 6.571428571428571,
+                    "marginHorizontal": 9,
+                  },
+                  false,
+                ]
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginHorizontal": 18,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "marginTop": 18,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "justifyContent": "center",
+            },
+            Object {
+              "flex": 1,
+            },
+          ]
+        }
+      >
+        <Text
+          numberOfLines={100}
+          style={
+            Array [
+              Object {
+                "color": "#ffffff",
+                "fontSize": 32,
+                "textTransform": "uppercase",
+              },
+              Object {
+                "fontFamily": "Poppins-Regular",
+              },
+            ]
+          }
+          testID="regular-text"
+        >
+          Rescue Session: Anger and Frustation
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/images/close.png",
+            }
+          }
+          style={
+            Object {
+              "height": 29.57142857142857,
+              "tintColor": "#ffffff",
+              "width": 29.57142857142857,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "justifyContent": "center",
+          },
+          Object {
+            "marginTop": 36,
+          },
+        ]
+      }
+    >
+      <Text
+        numberOfLines={100}
+        style={
+          Array [
+            Object {
+              "color": "#ffffff",
+              "fontSize": 44,
+            },
+            Object {
+              "fontFamily": "Poppins-Bold",
+            },
+          ]
+        }
+        testID="regular-text"
+      >
+        Pick the level your anger & frustation right now
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "space-evenly",
+          "marginHorizontal": 9,
+          "marginTop": 18,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "borderColor": "#ffffff",
+            "borderRadius": 750,
+            "borderStyle": "dashed",
+            "borderWidth": 2,
+            "height": 696,
+            "justifyContent": "center",
+            "marginBottom": 36,
+            "width": 696,
+          }
+        }
+      >
+        <View
+          indeterminateAnimationDuration={1000}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "overflow": "hidden",
+              },
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              },
+            ]
+          }
+          testID="PageFirstCircleProgress"
+        >
+          <RNSVGSvgView
+            bbHeight={522.9230769230769}
+            bbWidth={522.9230769230769}
+            collapsable={false}
+            focusable={false}
+            height={522.9230769230769}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                },
+                Object {},
+                Object {
+                  "flex": 0,
+                  "height": 522,
+                  "width": 522,
+                },
+              ]
+            }
+            width={522.9230769230769}
+          >
+            <RNSVGGroup>
+              <RNSVGPath
+                d="M261.46153846153845 12
+          A249.46153846153845 249.46153846153845 0 0 1 261.46153846153845 12"
+                propList={
+                  Array [
+                    "stroke",
+                    "strokeWidth",
+                    "strokeLinecap",
+                  ]
+                }
+                stroke={4294967295}
+                strokeLinecap={0}
+                strokeWidth={24}
+              />
+            </RNSVGGroup>
+          </RNSVGSvgView>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#386E7E",
+                "borderRadius": 750,
+                "height": 501.55555555555554,
+                "justifyContent": "center",
+                "position": "absolute",
+                "width": 501.55555555555554,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#36DEE8",
+                  "borderRadius": 750,
+                  "height": 321,
+                  "justifyContent": "center",
+                  "width": 321,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "justifyContent": "center",
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Text
+                  numberOfLines={100}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#ffffff",
+                        "fontSize": 100,
+                      },
+                      Object {
+                        "fontFamily": "Poppins-SemiBold",
+                      },
+                    ]
+                  }
+                  testID="regular-text"
+                >
+                  0
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+          }
+        }
+      >
+        <View
+          animationType="timing"
+          onLayout={[Function]}
+          onValueChange={[Function]}
+          step={1}
+          style={
+            Array [
+              Object {
+                "height": 40,
+                "justifyContent": "center",
+              },
+              Object {
+                "width": "90%",
+              },
+            ]
+          }
+          testID="CommonSlider"
+          thumbTouchSize={
+            Object {
+              "height": 40,
+              "width": 40,
+            }
+          }
+          value={0}
+        >
+          <View
+            onLayout={[Function]}
+            renderToHardwareTextureAndroid={true}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#ffffff",
+                },
+                Object {
+                  "borderRadius": 2,
+                  "height": 4,
+                },
+                Object {
+                  "borderRadius": 135,
+                  "height": 39.42857142857143,
+                },
+              ]
+            }
+          />
+          <View
+            collapsable={false}
+            renderToHardwareTextureAndroid={true}
+            style={
+              Object {
+                "backgroundColor": "#36DEE8",
+                "borderRadius": 135,
+                "height": 39.42857142857143,
+                "opacity": 0,
+                "position": "absolute",
+                "width": 0,
+              }
+            }
+          />
+          <View
+            collapsable={false}
+            onLayout={[Function]}
+            renderToHardwareTextureAndroid={true}
+            style={
+              Object {
+                "backgroundColor": "#36DEE8",
+                "borderColor": "#ffffff",
+                "borderRadius": 135,
+                "borderWidth": 6.571428571428571,
+                "elevation": 5,
+                "height": 49.285714285714285,
+                "opacity": 0,
+                "position": "absolute",
+                "shadowColor": undefined,
+                "shadowOffset": Object {
+                  "height": 1,
+                  "width": 1,
+                },
+                "shadowOpacity": 0.2,
+                "shadowRadius": 5,
+                "transform": Array [
+                  Object {
+                    "translateX": 0,
+                  },
+                  Object {
+                    "translateY": 0,
+                  },
+                ],
+                "width": 49.285714285714285,
+              }
+            }
+          />
+          <View
+            onMoveShouldSetResponder={[Function]}
+            onMoveShouldSetResponderCapture={[Function]}
+            onResponderEnd={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderReject={[Function]}
+            onResponderRelease={[Function]}
+            onResponderStart={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            onStartShouldSetResponderCapture={[Function]}
+            renderToHardwareTextureAndroid={true}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                },
+                Object {},
+              ]
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#ffffff",
+        "borderRadius": 135,
+        "flexDirection": "row",
+        "height": 82.14285714285714,
+        "justifyContent": "center",
+        "marginBottom": 18,
+        "marginHorizontal": 18,
+        "opacity": 1,
+        "paddingHorizontal": 24,
+      }
+    }
+    testID="common-button"
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "justifyContent": "center",
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        numberOfLines={100}
+        style={
+          Array [
+            Array [
+              Object {
+                "color": "#225E70",
+                "fontSize": 28,
+              },
+              undefined,
+            ],
+            Object {
+              "fontFamily": "Poppins-SemiBold",
+            },
+          ]
+        }
+        testID="regular-text"
+      >
+        Next
+      </Text>
+    </View>
+  </View>
+</View>
+`;
